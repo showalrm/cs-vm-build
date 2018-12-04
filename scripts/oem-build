@@ -75,7 +75,7 @@ main () {
     apt-get update
 
     user "Installing ansible and git"
-    apt-get install --assume-yes ansible git aptitude\
+    apt-get install --assume-yes ansible cowsay git aptitude\
         || error "Unable to install ansible and git packages"
 
     mkdir -p /opt/vmtools/logs
